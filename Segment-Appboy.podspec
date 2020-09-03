@@ -26,27 +26,27 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Full-SDK'
 
   s.subspec 'Full-SDK' do |default|
-    default.dependency 'Appboy-iOS-SDK', '3.27.0-beta2'
+    default.dependency 'Appboy-iOS-SDK', '3.27.0-beta3'
     default.source_files = 'Pod/Classes/**/*'
   end
 
   s.subspec 'Core' do |core|
-    core.dependency 'Appboy-iOS-SDK/Core', '3.27.0-beta2'
+    core.dependency 'Appboy-iOS-SDK/Core', '3.27.0-beta3'
     core.source_files = 'Pod/Classes/**/*'
   end
   
   s.subspec 'InAppMessage' do |iam|
-    iam.dependency 'Appboy-iOS-SDK/InAppMessage', '3.27.0-beta2'
+    iam.dependency 'Appboy-iOS-SDK/InAppMessage', '3.27.0-beta3'
     iam.source_files = 'Pod/Classes/**/*'
   end
   
   s.subspec 'NewsFeed' do |nf|
-    nf.dependency 'Appboy-iOS-SDK/NewsFeed', '3.27.0-beta2'
+    nf.dependency 'Appboy-iOS-SDK/NewsFeed', '3.27.0-beta3'
     nf.source_files = 'Pod/Classes/**/*'
   end
   
   s.subspec 'ContentCards' do |cc|
-    cc.dependency 'Appboy-iOS-SDK/ContentCards', '3.27.0-beta2'
+    cc.dependency 'Appboy-iOS-SDK/ContentCards', '3.27.0-beta3'
     cc.source_files = 'Pod/Classes/**/*'
   end
 
